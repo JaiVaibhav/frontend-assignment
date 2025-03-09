@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    position: fixed;
+    height: 50px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    top:0;
+    left:0;
+    right:0;
+    color:#1a1a1a;
+    font-size:48px;
+    font-weight: 600;
+    padding: 16px 24px;
+}
+
+.tableWrapper{
+    width:100%;
+    height: calc(100vh-100px);
+    background: #f0f0f0; /* Light background for contrast */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Outer shadow effect */
+    margin-top:100px;
+    padding : 16px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.tstyle{
+    width: 50%;
+}
+.tbody{
+    width: 100%;
+}
+
+tr > th {
+    text-align: center;
+}
+tr > td {
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1rem; 
+}
+.paginate{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    gap:2rem;
+    margin-top:20px;
+}
+
+.paginate > div {
+    width:25px;
+    height:25px;
+    border-radius: 100%;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selectedcss{
+    background-color:deepskyblue !important;
+}
+
+.arrowcss{
+    background-color: rgb(200, 75, 68) !important;
+}
