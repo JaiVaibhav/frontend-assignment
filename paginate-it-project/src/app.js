@@ -3,7 +3,7 @@ import './app.css';
 const App = () => {
   const [projectDetails, setProjectDetails] = useState([]);
   const [pages, setPages] = useState(0);
-  const [selectedPage, setSelectedPage] = useState(1);
+  const [selectedPage, setSelectedPage] = useState(0);
   async function fetchDetails(){
     const response = await fetch('https://raw.githubusercontent.com/saaslabsco/frontend-assignment/refs/heads/master/frontend-assignment.json');
     return await response.json();
